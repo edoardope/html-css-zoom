@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    margin-left: 1em;
+}
+
+table{
+    border-spacing: 0;
+}
+
+#img-wind{
+    height: 93vh;
+    background-color: black;
+}
+
+#img-cards{
+    height: 100%;
+    width: 100%;
+    padding: 3% 6% 3% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#tools-bar{
+    height: 7vh;
+    background-color: rgb(35,39,42);
+}
+
+#sp-view{
+    color: white;
+    padding-left: 93%;
+    padding-top: 10px;
+}
+
+#sp-view span{
+   margin: 10px;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.sp-cont{
+    background-color: grey;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card{
+    position: relative;
+    height: 200px;
+}
+
+.user{
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
