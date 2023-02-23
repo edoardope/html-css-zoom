@@ -20,7 +20,7 @@ table{
 #img-cards{
     height: 100%;
     width: 100%;
-    padding: 3% 6% 3% 6%;
+    padding: 3% 9.5% 3% 9.5%;
     display: flex;
     flex-wrap: wrap;
     align-items: start;
@@ -31,11 +31,13 @@ table{
 #tools-bar{
     height: 7vh;
     background-color: rgb(35,39,42);
+    display: flex;
+    justify-content: space-between;
 }
 
 #sp-view{
     color: white;
-    padding-left: 93%;
+    padding-left: 90%;
     padding-top: 10px;
 }
 
@@ -65,4 +67,73 @@ table{
     color: white;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 5px;
+}
+
+.mute{
+    flex-basis: 10%;
+    display: flex;
+    color: white;
+}
+
+.invite{
+    flex-basis: 40%;
+    display: flex;
+    color:  white;
+}
+
+
+
+.end{
+    flex-basis: 7%;
+    background-color: grey;
+    color: red;
+    padding: 35px 2px 3px 35px;
+}
+
+
+.mute-b{
+    flex-basis: 45%;
+    text-align: center;
+    padding-top: 7px;
+    position: relative;
+    
+}
+
+#tools-bar i{
+    font-size: xxx-large;
+}
+
+.video-b{
+    flex-basis: 55%;
+    position: relative;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.block{
+    display: block;
+}
+
+.mute-w{
+    margin-right: 15px;
+    margin-top: 8px;
+}
+
+.icon-s{
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    rotate: 270deg;
+}
+
+.invite .fa-share-from-square{
+    color: green;
+}
+
+#manage{
+    flex-basis: 70%;
+}
+
+#breakout{
+    flex-basis: 70%;
 }
