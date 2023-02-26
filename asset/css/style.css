@@ -18,7 +18,7 @@ table{
 }
 
 #img-cards{
-    height: 92.04vh;
+    height: 86vh;
     width: 100%;
     padding: 3% 9.5% 3% 9.5%;
     display: flex;
@@ -27,22 +27,26 @@ table{
     justify-content: space-between;
     gap: 10px;
     overflow: scroll hidden;
+    overflow-x: hidden;
 }
 
 #tools-bar{
     height: 7vh;
     background-color: rgb(35,39,42);
     display: flex;
+    align-items: center;
     justify-content: space-between;
     overflow: hidden;
     position: relative;
     z-index: 999999;
+    font-size: 1.3vh;
 }
 
 #sp-view{
     color: white;
-    padding-left: 90%;
     padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #sp-view span{
@@ -57,6 +61,8 @@ table{
     background-color: grey;
     padding: 5px;
     border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .card{
@@ -92,6 +98,7 @@ table{
     background-color: grey;
     color: red;
     padding: 1.6% 1% 1% 1.5%;
+    height: 100%;
 }
 
 
@@ -105,7 +112,7 @@ table{
 }
 
 #tools-bar i{
-    font-size: 300%;
+    font-size: 3vh;
 }
 
 .video-b{
